@@ -27,8 +27,6 @@ Setup = /usr/lib/x86_64-linux-gnu/odbc/libtdsS.so" >> /etc/odbcinst.ini
 
 RUN apt-get update && apt-get upgrade -y
 
-RUN pip install --upgrade pip     
-
 RUN mkdir /opt/app
 
 WORKDIR /opt/app
